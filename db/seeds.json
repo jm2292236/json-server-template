@@ -1,52 +1,167 @@
 {
-  "toys": [
-    {
-      "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
-    },
-    {
-      "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
-    },
-    {
-      "id": 3,
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
-    },
-    {
-      "id": 4,
-      "name": "Slinky Dog",
-      "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
-    },
-    {
-      "id": 5,
-      "name": "Rex",
-      "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
-    },
-    {
-      "id": 6,
-      "name": "Bo Peep",
-      "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 2
-    },
-    {
-      "id": 7,
-      "name": "Hamm",
-      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
-    },
-    {
-      "id": 8,
-      "name": "Little Green Men",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
-    }
-  ]
+    "users": [
+        {
+            "id": 1,
+            "firstName": "John",
+            "lastName": "Smith",
+            "email": "johnsmith@gmail.com",
+            "pwd": "js123",
+            "phone": 5621234567,
+            "bankAccount": 1122334455
+        },
+        {
+            "id": 2,
+            "firstName": "Pedro",
+            "lastName": "Cordoba",
+            "email": "pedrocordoba@live.com",
+            "pwd": "pc123",
+            "phone": 5621234567,
+            "bankAccount": 1122334455
+        },
+        {
+            "id": 3,
+            "firstName": "Chloe",
+            "lastName": "Ramos",
+            "email": "chloeramos@yahoo.com",
+            "pwd": "cr123",
+            "phone": 5621234567,
+            "bankAccount": 1122334455
+        }
+    ],
+    "properties": [
+        {
+            "id": 1,
+            "address": "1234 Lincoln Ave",
+            "city": "Los Angeles",
+            "state": "CA",
+            "image": "https://images.arrivedhomes.com/properties/178/f5be20d3dfe57673e61641de035c5f84.jpg?tr=dpr-auto,pr-true,di-logo_icon_CwvvbRzw9.svg,ar-373-224,w-1440",
+            "bed": 3,
+            "bath": 3,
+            "sqft": 1200,
+            "yearBuilt": 2013,
+            "purchasePrice": 250000,
+            "monthlyRent": 1795,
+            "description": "Welcoming and radiant home. This 1629 square foot home has 3 bedrooms and 3 full bathrooms. It features vaulted ceilings, custom built ins, an electric fireplace, a two car garage, and a fenced in back yard. The best part - it is maintenance free! This home is settled in the middle of a covenanted neighborhood complete with a club house, gym, and swimming pool. Everything outside of the privacy fence, including the landscaping, is maintained by the neighborhood POA. This charming home has had a bit of a makeover. The front door, the back door, and the front shutters have all been repainted. The carpet has been replaced and the interior paint has been touched up. This home is a must see!",
+            "shares": 100,
+            "sharePrice": 10,
+            "availableShares": 100
+        },
+        {
+            "id": 2,
+            "address": "20220 Main St",
+            "city": "Los Angeles",
+            "state": "CA",
+            "image": "https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070_960_720.jpg",
+            "bed": 3,
+            "bath": 2,
+            "sqft": 1523,
+            "yearBuilt": 2001,
+            "purchasePrice": 345000,
+            "monthlyRent": 1795,
+            "description": "One-level home with three bedrooms and two full bathrooms. The house has a beautiful kitchen with white cabinets, quartz countertops, and backsplash. The house has a laundry room, a fireplace in the living room, a dining room combined with kitchen, and a split-bedroom design on a lot that is just over a half acre with a fully fenced back yard. The subdivision of Hamilton on Hunter South is a great community centrally located with proximity to schools, businesses, common commutes, excellent spots for shopping and dining.",
+            "shares": 100,
+            "sharePrice": 10,
+            "availableShares": 100
+        },
+        {
+            "id": 3,
+            "address": "10500 First St",
+            "city": "New York",
+            "state": "NY",
+            "image": "https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_960_720.jpg",
+            "bed": 4,
+            "bath": 3,
+            "sqft": 2576,
+            "yearBuilt": 2002,
+            "purchasePrice": 330000,
+            "monthlyRent": 1780,
+            "description": "As you enter this house, you'll find a cozy sitting area to sip morning coffee and greet guests! The kitchen features stainless steel appliances. The Clover has an open spacious living room and dining room area. The dining room features all windows to let in natural light. The living room has a home office area with french doors and the same warm wood flooring that is throughout the downstairs. The primary bedroom on 2nd floor has 2 walk-in closets and double vanity in ensuite bath. The house also has a large fenced-in yard for privacy.",
+            "shares": 100,
+            "sharePrice": 10,
+            "availableShares": 100
+        },
+        {
+            "id": 4,
+            "address": "22334 Elsworth Rd",
+            "city": "Chicago",
+            "state": "IL",
+            "image": "https://cdn.pixabay.com/photo/2018/01/17/15/52/driveway-3088488_960_720.jpg",
+            "bed": 3,
+            "bath": 3,
+            "sqft": 2192,
+            "yearBuilt": 2020,
+            "purchasePrice": 355000,
+            "monthlyRent": 2095,
+            "description": "Beautiful home with 3 bedrooms and 3 bathrooms. Are you looking for a great neighborhood with sidewalks, pavilion, huge pool, grill, and playground? The house features upgraded flooring, appliances and crown molding, spacious bedrooms, sprawling primary suite with sitting area and walk in closet, and huge bonus room! The house has plenty of space to entertain with the extra-large eat in kitchen, formal dining area and generous living area offering a wood burning fireplace! The house also has an attached two door garage. This country home has it all conveniently located to I-75 and minutes to downtown Knoxville!",
+            "shares": 100,
+            "sharePrice": 10,
+            "availableShares": 100
+        },
+        {
+            "id": 5,
+            "address": "10631 Monte Vista Rd",
+            "city": "Chicago",
+            "state": "IL",
+            "image": "https://cdn.pixabay.com/photo/2017/06/16/15/58/luxury-home-2409518_960_720.jpg",
+            "bed": 4,
+            "bath": 3,
+            "sqft": 2251,
+            "yearBuilt": 2013,
+            "purchasePrice": 395000,
+            "monthlyRent": 2295,
+            "description": "This 4 bedroom, 3 bathroom home is ready for its new owners! This split-level home offers 3 bedrooms on the main level with a spacious living area with a fireplace and an eat in kitchen. The downstairs offers a large additional family room along with a 4th bedroom and full bath. The house has granite kitchen countertops, beautiful bamboo flooring throughout, and 2 large decks overlooking the fenced in back yard. The Riverwalk is located in a quiet cul-de-sac, close to restaurants, the interstate and shopping this home has it all!",
+            "shares": 100,
+            "sharePrice": 10,
+            "availableShares": 100
+        },
+        {
+            "id": 6,
+            "address": "23100 Hazelnut Dr",
+            "city": "Chicago",
+            "state": "IL",
+            "image": "https://cdn.pixabay.com/photo/2017/06/17/12/59/luxury-home-2412145__340.jpg",
+            "bed": 3,
+            "bath": 2,
+            "sqft": 1531,
+            "yearBuilt": 2020,
+            "purchasePrice": 240000,
+            "monthlyRent": 1395,
+            "description": "This house has 3 bedrooms and 2 full bathrooms. The house has a flex room and a beautiful kitchen with amazing cabinetry and kitchen island. This custom-built home is less than 2 years old. The primary bedroom is spacious. The primary bathroom has a stand-up shower, with his and hers closets for extra storage space. The house also has an enclosed 2 car garage, fenced back yard and the covered back porch is perfect for entertaining family and friends.",
+            "shares": 100,
+            "sharePrice": 10,
+            "availableShares": 100
+        },
+        {
+            "id": 7,
+            "address": "21456 Zapata Pkwy",
+            "city": "New York",
+            "state": "NY",
+            "image": "https://cdn.pixabay.com/photo/2017/06/16/13/40/new-home-2409165__340.jpg",
+            "bed": 3,
+            "bath": 3,
+            "sqft": 1629,
+            "yearBuilt": 2013,
+            "purchasePrice": 300000,
+            "monthlyRent": 1895,
+            "description": "This is a welcoming and radiant home. This 1629 square foot home has 3 bedrooms and 3 full bathrooms. It features vaulted ceilings, custom built ins, an electric fireplace, a two car garage, and a fenced in back yard. The best part - it is maintenance free! This home is settled in the middle of a covenanted neighborhood complete with a club house, gym, and swimming pool. Everything outside of the privacy fence, including the landscaping, is maintained by the neighborhood POA. This charming home has had a bit of a makeover. The front door, the back door, and the front shutters have all been repainted. The carpet has been replaced and the interior paint has been touched up. This home is a must see!",
+            "shares": 100,
+            "sharePrice": 10,
+            "availableShares": 100
+        }
+    ],
+    "investments": [
+        {
+            "id": 1,
+            "userId": 1,
+            "propertyId": 1,
+            "shares": 15
+        }
+    ],
+    "interest": [
+        {
+            "id": 1,
+            "userId": 1,
+            "propertyId": 5
+        }
+    ]
 }
