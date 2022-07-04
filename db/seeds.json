@@ -34,7 +34,7 @@
             "address": "1234 Lincoln Ave",
             "city": "Los Angeles",
             "state": "CA",
-            "image": "https://images.arrivedhomes.com/properties/178/f5be20d3dfe57673e61641de035c5f84.jpg?tr=dpr-auto,pr-true,di-logo_icon_CwvvbRzw9.svg,ar-373-224,w-1440",
+            "image": "https://cdn.pixabay.com/photo/2016/09/20/11/26/home-1682316__340.jpg",
             "bed": 3,
             "bath": 3,
             "sqft": 1200,
@@ -44,7 +44,8 @@
             "description": "Welcoming and radiant home. This 1629 square foot home has 3 bedrooms and 3 full bathrooms. It features vaulted ceilings, custom built ins, an electric fireplace, a two car garage, and a fenced in back yard. The best part - it is maintenance free! This home is settled in the middle of a covenanted neighborhood complete with a club house, gym, and swimming pool. Everything outside of the privacy fence, including the landscaping, is maintained by the neighborhood POA. This charming home has had a bit of a makeover. The front door, the back door, and the front shutters have all been repainted. The carpet has been replaced and the interior paint has been touched up. This home is a must see!",
             "shares": 100,
             "sharePrice": 10,
-            "availableShares": 100
+            "availableShares": 100,
+            "sharesOwned": 0
         },
         {
             "id": 2,
@@ -59,9 +60,10 @@
             "purchasePrice": 345000,
             "monthlyRent": 1795,
             "description": "One-level home with three bedrooms and two full bathrooms. The house has a beautiful kitchen with white cabinets, quartz countertops, and backsplash. The house has a laundry room, a fireplace in the living room, a dining room combined with kitchen, and a split-bedroom design on a lot that is just over a half acre with a fully fenced back yard. The subdivision of Hamilton on Hunter South is a great community centrally located with proximity to schools, businesses, common commutes, excellent spots for shopping and dining.",
-            "shares": 100,
+            "shares": 120,
             "sharePrice": 10,
-            "availableShares": 100
+            "availableShares": 120,
+            "sharesOwned": 0
         },
         {
             "id": 3,
@@ -76,9 +78,10 @@
             "purchasePrice": 330000,
             "monthlyRent": 1780,
             "description": "As you enter this house, you'll find a cozy sitting area to sip morning coffee and greet guests! The kitchen features stainless steel appliances. The Clover has an open spacious living room and dining room area. The dining room features all windows to let in natural light. The living room has a home office area with french doors and the same warm wood flooring that is throughout the downstairs. The primary bedroom on 2nd floor has 2 walk-in closets and double vanity in ensuite bath. The house also has a large fenced-in yard for privacy.",
-            "shares": 100,
-            "sharePrice": 10,
-            "availableShares": 100
+            "shares": 130,
+            "sharePrice": 15,
+            "availableShares": 130,
+            "sharesOwned": 0
         },
         {
             "id": 4,
@@ -93,9 +96,10 @@
             "purchasePrice": 355000,
             "monthlyRent": 2095,
             "description": "Beautiful home with 3 bedrooms and 3 bathrooms. Are you looking for a great neighborhood with sidewalks, pavilion, huge pool, grill, and playground? The house features upgraded flooring, appliances and crown molding, spacious bedrooms, sprawling primary suite with sitting area and walk in closet, and huge bonus room! The house has plenty of space to entertain with the extra-large eat in kitchen, formal dining area and generous living area offering a wood burning fireplace! The house also has an attached two door garage. This country home has it all conveniently located to I-75 and minutes to downtown Knoxville!",
-            "shares": 100,
+            "shares": 140,
             "sharePrice": 10,
-            "availableShares": 100
+            "availableShares": 140,
+            "sharesOwned": 0
         },
         {
             "id": 5,
@@ -110,9 +114,10 @@
             "purchasePrice": 395000,
             "monthlyRent": 2295,
             "description": "This 4 bedroom, 3 bathroom home is ready for its new owners! This split-level home offers 3 bedrooms on the main level with a spacious living area with a fireplace and an eat in kitchen. The downstairs offers a large additional family room along with a 4th bedroom and full bath. The house has granite kitchen countertops, beautiful bamboo flooring throughout, and 2 large decks overlooking the fenced in back yard. The Riverwalk is located in a quiet cul-de-sac, close to restaurants, the interstate and shopping this home has it all!",
-            "shares": 100,
-            "sharePrice": 10,
-            "availableShares": 100
+            "shares": 150,
+            "sharePrice": 20,
+            "availableShares": 150,
+            "sharesOwned": 0
         },
         {
             "id": 6,
@@ -127,9 +132,10 @@
             "purchasePrice": 240000,
             "monthlyRent": 1395,
             "description": "This house has 3 bedrooms and 2 full bathrooms. The house has a flex room and a beautiful kitchen with amazing cabinetry and kitchen island. This custom-built home is less than 2 years old. The primary bedroom is spacious. The primary bathroom has a stand-up shower, with his and hers closets for extra storage space. The house also has an enclosed 2 car garage, fenced back yard and the covered back porch is perfect for entertaining family and friends.",
-            "shares": 100,
+            "shares": 160,
             "sharePrice": 10,
-            "availableShares": 100
+            "availableShares": 160,
+            "sharesOwned": 0
         },
         {
             "id": 7,
@@ -144,24 +150,60 @@
             "purchasePrice": 300000,
             "monthlyRent": 1895,
             "description": "This is a welcoming and radiant home. This 1629 square foot home has 3 bedrooms and 3 full bathrooms. It features vaulted ceilings, custom built ins, an electric fireplace, a two car garage, and a fenced in back yard. The best part - it is maintenance free! This home is settled in the middle of a covenanted neighborhood complete with a club house, gym, and swimming pool. Everything outside of the privacy fence, including the landscaping, is maintained by the neighborhood POA. This charming home has had a bit of a makeover. The front door, the back door, and the front shutters have all been repainted. The carpet has been replaced and the interior paint has been touched up. This home is a must see!",
-            "shares": 100,
-            "sharePrice": 10,
-            "availableShares": 100
+            "shares": 170,
+            "sharePrice": 30,
+            "availableShares": 170,
+            "sharesOwned": 0
         }
     ],
-    "investments": [
+    "portfolio": [
         {
-            "id": 1,
-            "userId": 1,
-            "propertyId": 1,
-            "shares": 15
-        }
-    ],
-    "interest": [
+            "id": 3,
+            "address": "10500 First St",
+            "city": "New York",
+            "state": "NY",
+            "image": "https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_960_720.jpg",
+            "bed": 4,
+            "bath": 3,
+            "sqft": 2576,
+            "yearBuilt": 2002,
+            "purchasePrice": 330000,
+            "monthlyRent": 1780,
+            "description": "As you enter this house, you'll find a cozy sitting area to sip morning coffee and greet guests! The kitchen features stainless steel appliances. The Clover has an open spacious living room and dining room area. The dining room features all windows to let in natural light. The living room has a home office area with french doors and the same warm wood flooring that is throughout the downstairs. The primary bedroom on 2nd floor has 2 walk-in closets and double vanity in ensuite bath. The house also has a large fenced-in yard for privacy.",
+            "sharesOwned": 20,
+            "sharePrice": 15
+        },
         {
-            "id": 1,
-            "userId": 1,
-            "propertyId": 5
+            "id": 5,
+            "address": "10631 Monte Vista Rd",
+            "city": "Chicago",
+            "state": "IL",
+            "image": "https://cdn.pixabay.com/photo/2017/06/16/15/58/luxury-home-2409518_960_720.jpg",
+            "bed": 4,
+            "bath": 3,
+            "sqft": 2251,
+            "yearBuilt": 2013,
+            "purchasePrice": 395000,
+            "monthlyRent": 2295,
+            "description": "This 4 bedroom, 3 bathroom home is ready for its new owners! This split-level home offers 3 bedrooms on the main level with a spacious living area with a fireplace and an eat in kitchen. The downstairs offers a large additional family room along with a 4th bedroom and full bath. The house has granite kitchen countertops, beautiful bamboo flooring throughout, and 2 large decks overlooking the fenced in back yard. The Riverwalk is located in a quiet cul-de-sac, close to restaurants, the interstate and shopping this home has it all!",
+            "sharesOwned": 35,
+            "sharePrice": 20
+        },
+        {
+            "id": 7,
+            "address": "21456 Zapata Pkwy",
+            "city": "New York",
+            "state": "NY",
+            "image": "https://cdn.pixabay.com/photo/2017/06/16/13/40/new-home-2409165__340.jpg",
+            "bed": 3,
+            "bath": 3,
+            "sqft": 1629,
+            "yearBuilt": 2013,
+            "purchasePrice": 300000,
+            "monthlyRent": 1895,
+            "description": "This is a welcoming and radiant home. This 1629 square foot home has 3 bedrooms and 3 full bathrooms. It features vaulted ceilings, custom built ins, an electric fireplace, a two car garage, and a fenced in back yard. The best part - it is maintenance free! This home is settled in the middle of a covenanted neighborhood complete with a club house, gym, and swimming pool. Everything outside of the privacy fence, including the landscaping, is maintained by the neighborhood POA. This charming home has had a bit of a makeover. The front door, the back door, and the front shutters have all been repainted. The carpet has been replaced and the interior paint has been touched up. This home is a must see!",
+            "sharesOwned": 100,
+            "sharePrice": 30
         }
     ]
 }
